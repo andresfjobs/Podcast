@@ -1,0 +1,54 @@
+.intro {
+    width: 320px;
+    font-family: 'IBM Plex Sans';
+    font-size: 36px;
+    color:#060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+    display: grid;
+    grid-template-columns: auto, auto, auto, auto;
+    grid-template-areas: 
+            "a a a a"
+            ". b b .";
+
+    .content{
+      grid-area: a;
+    }
+    
+    .conocemas {
+      margin-bottom:24px;
+      grid-area: b;    
+      border: 0em;
+      padding: 0em;
+      font-family: 'IBM Plex Mono', monospace;      
+      width: 288px;
+      height: 48px;
+      background-color: #00f3bb;
+      
+    }
+
+
+  }
+
+  .episodio{
+
+    .rectangle_background{
+      background: linear-gradient(#0000FF, #0000A3);
+      svg{
+        width:100%;
+
+      }
+      .contenedor_episodios{
+          h2{
+            color: white;
+            text-align: left;
+            margin-left: 16px;
+          }
+          .episodio_spotify{
+            margin-left:11px;
+            width: 298px;
+            height: 225px;
+          }
+      }
+    }
+  }

@@ -1,0 +1,56 @@
+.intro {
+  width: 320px;
+  font-family: 'IBM Plex Sans';
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto, auto, auto, auto;
+      grid-template-columns: auto, auto, auto, auto;
+      grid-template-areas: "a a a a" ". b b .";
+}
+
+.intro .content {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: a;
+}
+
+.intro .conocemas {
+  margin-bottom: 24px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: b;
+  border: 0em;
+  padding: 0em;
+  font-family: 'IBM Plex Mono', monospace;
+  width: 288px;
+  height: 48px;
+  background-color: #00f3bb;
+}
+
+.episodio .rectangle_background {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
+  background: linear-gradient(#0000FF, #0000A3);
+}
+
+.episodio .rectangle_background svg {
+  width: 100%;
+}
+
+.episodio .rectangle_background .contenedor_episodios h2 {
+  color: white;
+  text-align: left;
+  margin-left: 16px;
+}
+
+.episodio .rectangle_background .contenedor_episodios .episodio_spotify {
+  margin-left: 11px;
+  width: 298px;
+  height: 225px;
+}
+/*# sourceMappingURL=styles.css.map */
