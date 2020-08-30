@@ -1,0 +1,83 @@
+@media screen and (min-width: 1024px) and (max-width: 1440px)  {
+
+    $ibmsans: 'IBM Plex Sans';
+    $ibmmono: 'IBM Plex Mono';
+    .line_through{
+        text-decoration: line-through;
+    }
+    .intro{    
+        padding-left: 186px;
+        width: 100%;
+        grid-template-areas: 
+        "a a a a"
+        "b b . .";
+       
+            .content{
+                    .ibmsans{
+                        font-family: $ibmsans;
+                        font-size: 64px;
+                        color:#060A24;
+                    }
+                    .line_through{
+                        text-decoration: line-through;
+                    }
+                    .ibmono{
+                        font-family: $ibmmono;
+                        font-size: 16px;
+                        color:#060A24;
+                            .text-hidden{
+                                font-size: 16px;
+                            }
+                    }
+
+                    .mobile{
+                        display:none;
+                    }
+
+                    .conocemas{
+                        font-family: $ibmmono;
+                        font-size: 18px;
+                        color: #060A24; 
+                    }
+            }
+    }
+
+    .main_content{
+
+        .episodio{
+            grid-area: auto;
+            padding-bottom: 100px;
+            background: linear-gradient(#0000FF, #0000A3);
+            .rectangle_background{
+               
+                .contenedor_episodio{
+                    display: grid;                    
+                   // justify-items: center;
+                   grid-template-columns: auto auto;
+                    .episodio_spotify{    
+                            width: 500px;
+                            height: 300px;
+                            margin: 0 auto;
+                            display: flex;            /* new */
+                            align-items: center;      /* new */
+                            justify-content: center;
+                        //grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));    
+                        iframe{
+                            width: 100%;
+                            height: 100%;
+                        }
+                        
+                    }
+                }
+
+            }
+        }
+    }
+
+    
+
+
+
+
+    
+}

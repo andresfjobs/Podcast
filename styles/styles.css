@@ -1,9 +1,8 @@
 .intro {
   width: 320px;
-  font-family: 'IBM Plex Sans';
   font-size: 36px;
+  font-weight: 500;
   color: #060A24;
-  letter-spacing: 0;
   line-height: 42px;
   display: -ms-grid;
   display: grid;
@@ -17,76 +16,135 @@
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-area: a;
+  margin: 0 0 0 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.intro .content h1 {
+  font-family: 'IBM Plex Sans';
+  font-weight: 500;
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-bottom: 0;
+}
+
+.intro .content .ibmsans .line_through {
+  text-decoration: line-through;
+}
+
+.intro .content .ibmono {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+.intro .text-hidden {
+  font-size: 0;
 }
 
 .intro .conocemas {
-  margin-bottom: 24px;
+  margin: 36px 16px 24px 16px;
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: b;
   border: 0em;
   padding: 0em;
-  font-family: 'IBM Plex Mono', monospace;
   width: 288px;
   height: 48px;
   background-color: #00f3bb;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.intro .conocemas:hover {
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+  color: #FFFFFF;
 }
 
 .main_content {
   position: relative;
   display: -ms-grid;
   display: grid;
+  height: 1145px;
 }
 
 .episodio {
-  padding-bottom: 100px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#0000A3));
-  background: linear-gradient(#0000FF, #0000A3);
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000a3 100%);
+  -webkit-clip-path: polygon(0 3.65%, 100% 0%, 100% 97.25%, 0% 100%);
+          clip-path: polygon(0 3.65%, 100% 0%, 100% 97.25%, 0% 100%);
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: 1/1;
 }
 
-.episodio .rectangle_background svg {
-  width: 100%;
-}
-
-.episodio .rectangle_background .contenedor_episodios h2 {
-  color: white;
-  text-align: left;
+.episodio .contenedor_episodios h2 {
+  color: #ffffff;
+  margin-top: 64px;
+  font-family: 'IBM Plex Sans';
+  font-weight: 300;
+  font-size: 36px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 42px;
+  width: 157px;
   margin-left: 16px;
+  margin-bottom: 21px;
 }
 
-.episodio .rectangle_background .contenedor_episodios .episodio_spotify {
+.episodio .contenedor_episodios .episodio_spotify {
   margin-left: 11px;
+  margin-top: 21px;
   width: 298px;
   height: 200px;
 }
 
 .phoneImage {
-  position: absolute;
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: 1/1;
-  width: 300px;
-  height: 519px;
-  bottom: -420px;
+  -webkit-transform: translateY(-98px);
+          transform: translateY(-98px);
+  height: 450px;
 }
 
 .phoneImage img {
-  width: 300px;
   height: 519px;
 }
 
-.rectangle_background_bottom {
-  background: -webkit-gradient(linear, left top, left bottom, from(#0000A3));
-  background: linear-gradient(#0000A3);
-  height: 32px;
+.de_donde_venimos {
+  margin: 0;
 }
 
-.rectangle_background_bottom svg {
-  width: 320px;
+.de_donde_venimos h2 {
+  font-family: 'IBM Plex Sans';
+  font-size: 36px;
+  font-weight: 500;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin: 0 16px 0 16px;
+}
+
+.de_donde_venimos p {
+  margin: 8px 16px 15px 16px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  font-weight: 500;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 22px;
 }
 
 .de_donde_venimos .contenedor_imagenes img {
@@ -94,7 +152,119 @@
   height: 243px;
 }
 
-.separador {
-  height: 500px;
+.de_donde_venimos .inv {
+  margin: 54px 16px 14px 16px;
+}
+
+.algunos_temas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 48px 16px;
+}
+
+.algunos_temas h2 {
+  font-family: 'IBM Plex Sans';
+  font-size: 36px;
+  font-weight: 400;
+  color: #060A24;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+
+.algunos_temas h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 24px;
+  color: #060A24;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.novedad {
+  height: 341px;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000a3 100%);
+  -webkit-clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0% 100%);
+  color: #FFFFFF;
+}
+
+.novedad h2 {
+  padding-top: 64px;
+  font-size: 36px;
+  text-align: center;
+  margin: 0 16px;
+  font-family: 'IBM Plex Sans';
+  font-size: 36px;
+  font-weight: 400;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 42px;
+}
+
+.novedad button {
+  margin: 36px 16px 67px 16px;
+  margin-left: 16px;
+  margin-bottom: 24px;
+  border: 0em;
+  padding: 0em;
+  font-family: 'IBM Plex Mono', monospace;
+  width: 288px;
+  height: 48px;
+  background-color: #00f3bb;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.novedad button:hover {
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+  color: #FFFFFF;
+}
+
+.footer p {
+  margin: 24px 46px 16px 47px;
+  text-align: center;
+  font-family: 'IBM Plex Mono';
+  font-size: 14px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.footer .contenedor-redes-sociales {
+  font-size: 0px;
+  margin-bottom: 31px;
+}
+
+.footer .contenedor-redes-sociales img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 38px;
+  height: 28px;
+  width: 16px;
+}
+
+.footer .contenedor-redes-sociales img:first-child {
+  margin-left: 45px;
+}
+
+.footer .contenedor-redes-sociales img:nth-child(2) {
+  width: 14px;
+}
+
+.footer .contenedor-redes-sociales img:last-child {
+  margin-right: 45px;
 }
 /*# sourceMappingURL=styles.css.map */
