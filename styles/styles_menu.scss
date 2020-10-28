@@ -65,6 +65,8 @@ body{
   transform: rotate(-45deg) translate(2px, 3px);
 }
 
+
+
 #checkbox:checked ~ ul {
   transform: none;
 }
@@ -171,6 +173,25 @@ body{
     display: none;
   }
 
+  /**/
+.ham_menu {
+  top: 200px;
+  height: 220px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(0, -100%);
+  transition: transform 0.3s cubic-bezier(0.4, 0.07, 0.99, 0.91);
+}
+.ham_menu li {
+  padding: 13px 0 10px 0;
+  font-size: 1.6em;
+}
+  /**/
+
   .contenedor_ham_menu {
     top: 8px;
     height: 44px;
@@ -194,9 +215,7 @@ body{
           font-size: 16px;
           color: #060a24;
           letter-spacing: 0;
-          line-height: 28px;
-          transition: all 200ms ease;
-          text-align: center;
+          margin: 0;
         }
       }
     }

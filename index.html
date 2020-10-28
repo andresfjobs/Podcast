@@ -3,129 +3,221 @@
     <meta charset="UTF-8" />
     <meta lang="es" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet1" href="https://yarnpkg.com/en/package/normalize.css" />
+    <link
+      rel="stylesheet1"
+      href="https://yarnpkg.com/en/package/normalize.css"
+    />
     <link rel="stylesheet" href="./styles/styles_menu.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/stylesLaptop.css" />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <main>
-      <header>
-
-      </header>
-      <nav class="nav">        
-          <input class="hambutton" type="checkbox" id="checkbox" />
-          <div class="contenedorLinea">
-                  <span class="linea"></span>
-                  <span class="linea"></span>
-                  <span class="linea"></span>
-          </div>
-          <div class="contenedor_ham_menu">
-              <ul class="ham_menu">
-                <li><a href="#"> EPISODIOS</a></li>
-                <li><a href="#"> NOSOTROS</a></li>
-                <li><a href="#"> ENTREVISTAS </a></li>
-                <li><a href="#"> TÓPICOS</a></li>
-              </ul>
-          </div>
+      <header></header>
+      <nav class="nav">
+        <input class="hambutton" type="checkbox" id="checkbox" />
+        <div class="contenedorLinea">
+          <span class="linea"></span>
+          <span class="linea"></span>
+          <span class="linea"></span>
+        </div>
+        <div class="contenedor_ham_menu">
+          <ul class="ham_menu">
+            <li><a href="#episodio"> EPISODIOS</a></li>
+            <li><a href="#de_donde_venimos"> NOSOTROS</a></li>
+            <li><a href="#invitados"> ENTREVISTAS </a></li>
+            <li><a href="#topicos"> TÓPICOS</a></li>
+          </ul>
+        </div>
       </nav>
-    
+
       <section class="intro">
         <div class="content">
-          <h1 class="ibmsans">Hello
-          <span class="ibmsans line_through">world</span><br>
-          pale blue dot.</h1>
+          <h1 class="ibmsans hello">
+            Hello <span class="ibmsans line_through">world</span>
+            pale blue dot<span class="dot">.</span>
+          </h1>
 
-          <p class="ibmono">Un podcast que explora el mundo de 
-            la programación<span class="text-hidden"> y la tecnología</span>. Nuevos episodios, 
-            todos los jueves cada 15 dias.</p>
+          <p class="ibmono">
+            <span class="text-hidden-mobile">
+              Un podcast</span>
+            <span class="text-hidden-laptop">
+            El portal de podcasts</span> que explora el mundo de la programación<span class="text-hidden-laptop">y la tecnología</span>. Nuevos episodios, todos los jueves cada 15 dias.
+          </p>
         </div>
-          <button class="conocemas">CONOCÉ MÁS</button>
+        <button class="conocemas">CONOCÉ MÁS</button>
       </section>
 
-    
       <div class="main_content">
-        <section class="episodio">
-          <article class="contenedor_episodios">
-            <h2>Episodios</h2>
-              <div class="episodio_spotify">
-                <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="100%" height="225" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-              </div>
+        <section class="episodio" id="episodio">
+          <h2 class="titulo_episodio">Episodios</h2>
+          <article class="contenedor_episodios">            
+            <div class="episodio_spotify">
+              <iframe
+                src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"
+                width="100%"
+                height="225"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
 
-              <div class="episodio_spotify">
-                <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="100%" height="225" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-              </div>
+            <div class="episodio_spotify">
+              <iframe
+                src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"
+                width="100%"
+                height="225"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
 
-              <div class="episodio_spotify">
-                <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" width="100%" height="225" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-              </div>
+            <div class="episodio_spotify">
+              <iframe
+                src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"
+                width="100%"
+                height="225"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
 
-              <div class="episodio_spotify">
-                <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" width="100%" height="225" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-              </div>
-          </article>                   
-        </section>        
-      </div>      
-        
-      <div class="phoneImage">
-        <img src="./images/phone.png"/>
-      </div>    
-            
-        <section class="de_donde_venimos">
+            <div class="episodio_spotify">
+              <iframe
+                src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"
+                width="100%"
+                height="225"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+          </article>
+        </section>
+      </div>
 
-          <h2>De dónde venimos</h2>
-          <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+      <div class="phoneImage" >
+        <div class="contenedor-imageP">
+        <img alt="Phone Imagen" class="imageP" src="./images/phone.png" id="de_donde_venimos" />
+      </div>
+      
 
-          <p>Our planet is a lonely speck in the great enveloping cosmic dark. In out obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+      <section class="de_donde_venimos">
+        <h2 class="titulo_de_donde_venimos">De dónde venimos</h2>
+        <p class="parrafo_de_donde_venimos">
+          Our posturings, our imagined self-importance, the delusion that we
+          have some privileged position in the Universe, are challenged by this
+          point of pale light.
+        </p>
 
-          <h2 class="inv">Invitadas/os estelares</h2>
+        <p class="parrafo_de_donde_venimos">
+          Our planet is a lonely speck in the great enveloping cosmic dark. In
+          out obscurity, in all this vastness, there is no hint that help will
+          come from elsewhere to save us from ourselves.
+        </p>
+      </section>
+    </div>
 
-          <div class="contenedor_imagenes">
-            <img src="./images/grace-hopper.png">
-            <img src="./images/Katie-Bouman.png">
-            <img src="./images/Margaret_Hamilton.png">
-            <img src="./images/An E.R.A.Univac 1103 computer in the 1950s.png">
-            <img src="./images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png">
-            <img src="./images/susan-kare.png">
+      <section class="invitados" id="invitados">
+        <h2 class="inv">Invitadas/os estelares</h2>
+
+        <div class="contenedor_imagenes">
+          <img alt="grace-hopper" src="./images/grace-hopper.png" />
+          <img alt="Katie-Bouman" src="./images/Katie-Bouman.png" />
+          <img alt="Margaret_Hamilton" src="./images/Margaret_Hamilton.png" />
+        </div>
+        <div class="contenedor_imagenes">
+          <img alt="E.R.A.Univac 1103" src="./images/An E.R.A.Univac 1103 computer in the 1950s.png" />
+          <img alt="Eniac" src="./images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"/>
+          <img alt="susan-kare" src="./images/susan-kare.png" />
+        </div>
+      </section>
+
+      <section class="algunos_temas" id="topicos">
+        <h2>Algunos de nuestros temas</h2>
+        <div class="algunos_temas_img">
+          <div class="contenedor_algunos_temas">
+            <img alt="Trabajo remoto" src="./images/icon1.svg" />
+            <h3>Trabajo remoto</h3>
           </div>
-
-        </section>
-
-        <section class="algunos_temas">
-            <h2>Algunos de nuestros temas</h2>
-              <img src="./images/icon1.svg"/>
-              <h3>Trabajo remoto</h3>
-              <img src="./images/icon2.svg"/>
-              <h3>Repensando la programación</h3>
-              <img src="./images/icon3.svg"/>
-              <h3>Bases del código</h3>
-              <img src="./images/icon4.svg"/>
-              <h3>Seguridad informática</h3>
-        </section>
-
-        <section class="novedad">          
-            <h2>¿Querés las últimas novedades?</h2>
-            <button>ESCUCH&Aacute; LOS EPISODIOS</button>          
-        </section>
-
-        <footer class="footer">
-          <p>© 2019— Hello blue pale dot</p>
-          <div class="contenedor-redes-sociales">
-            <img src="./images/fontawesome-free-5.13.0-desktop/svgs/brands/spotify.svg"/> 
-            <img src="./images/fontawesome-free-5.13.0-desktop/svgs/brands/instagram.svg"/>
-            <img src="./images/fontawesome-free-5.13.0-desktop/svgs/brands/twitter.svg"/>         
-            <img src="./images/fontawesome-free-5.13.0-desktop/svgs/brands/facebook.svg"/>               
-            <img src="./images/fontawesome-free-5.13.0-desktop/svgs/brands/telegram.svg"/>       
+          <div class="contenedor_algunos_temas">
+            <img alt="Repensando la programación" src="./images/icon2.svg" />
+            <h3>Repensando la programación</h3>
           </div>
-        </footer>
+          <div class="contenedor_algunos_temas">
+            <img alt="Bases del código" src="./images/icon3.svg" />
+            <h3>Bases del código</h3>
+          </div>
+          <div class="contenedor_algunos_temas">
+            <img alt="Seguridad informática" src="./images/icon4.svg" />
+            <h3>Seguridad informática</h3>
+          </div>
+        </div>
+      </section>
 
+      <section class="novedad">
+        <h2>¿Querés las últimas novedades?</h2>
+        <button class="escuchaBoton">ESCUCH&Aacute; LOS EPISODIOS</button>
+      </section>
+
+      <footer class="footer">
+        <p class="parrafo_hello">© 2019— Hello blue pale dot</p>
+        <div class="contenedor-redes-sociales">
+          <a href="https://www.spotify.com/">
+          <img alt="Spotify"
+            src="./images/fontawesome-free-5.13.0-desktop/svgs/brands/spotify.svg"
+          />
+          </a>
+          <a href="https://www.instagram.com/">
+          <img alt="Instagram"
+            src="./images/fontawesome-free-5.13.0-desktop/svgs/brands/instagram.svg"
+          />
+          </a>
+          <a href="https://www.twitter.com/">
+          <img alt="Twitter"
+            src="./images/fontawesome-free-5.13.0-desktop/svgs/brands/twitter.svg"
+          />
+          </a>
+          <a href="https://www.facebook.com/">
+          <img alt="Facebook"
+            src="./images/fontawesome-free-5.13.0-desktop/svgs/brands/facebook.svg"
+          />
+          </a>
+          <a href="https://www.telegram.com/">
+          <img alt="Telegram"
+            src="./images/fontawesome-free-5.13.0-desktop/svgs/brands/telegram.svg"
+          />
+        </a>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

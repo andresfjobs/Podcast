@@ -1,5 +1,10 @@
+:root {
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
 .intro {
-  width: 320px;
+  width: 100%;
   font-size: 36px;
   font-weight: 500;
   color: #060A24;
@@ -20,13 +25,14 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
 }
 
-.intro .content h1 {
+.intro .content .ibmsans.hello {
+  width: 250px;
   font-family: 'IBM Plex Sans';
   font-weight: 500;
   font-size: 36px;
@@ -49,8 +55,8 @@
   margin-bottom: 0;
 }
 
-.intro .text-hidden {
-  font-size: 0;
+.intro .content .ibmono .text-hidden-laptop {
+  display: none;
 }
 
 .intro .conocemas {
@@ -92,7 +98,7 @@
   grid-area: 1/1;
 }
 
-.episodio .contenedor_episodios h2 {
+.episodio .titulo_episodio {
   color: #ffffff;
   margin-top: 64px;
   font-family: 'IBM Plex Sans';
@@ -113,18 +119,14 @@
   height: 200px;
 }
 
-.phoneImage {
+.phoneImage .contenedor-imageP {
+  height: 459px;
+}
+
+.phoneImage .contenedor-imageP img {
   -webkit-transform: translateY(-98px);
           transform: translateY(-98px);
-  height: 450px;
-}
-
-.phoneImage img {
   height: 519px;
-}
-
-.de_donde_venimos {
-  margin: 0;
 }
 
 .de_donde_venimos h2 {
@@ -135,6 +137,7 @@
   letter-spacing: 0;
   line-height: 42px;
   margin: 0 16px 0 16px;
+  height: 84px;
 }
 
 .de_donde_venimos p {
@@ -147,13 +150,23 @@
   line-height: 22px;
 }
 
-.de_donde_venimos .contenedor_imagenes img {
-  width: 320px;
-  height: 243px;
+.invitados .inv {
+  margin: 54px 16px 14px 16px;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  font-size: 36px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 42px;
 }
 
-.de_donde_venimos .inv {
-  margin: 54px 16px 14px 16px;
+.invitados .contenedor_imagenes {
+  width: 320px;
+}
+
+.invitados .contenedor_imagenes img {
+  width: 320px;
+  height: 243px;
 }
 
 .algunos_temas {
@@ -244,11 +257,27 @@
 }
 
 .footer .contenedor-redes-sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 0px;
   margin-bottom: 31px;
 }
 
-.footer .contenedor-redes-sociales img {
+.footer .contenedor-redes-sociales a {
+  /*
+    &:nth-child(2){
+      width: 14px;
+    }
+    &:last-child{
+      margin-right: 45px;
+    }*/
+}
+
+.footer .contenedor-redes-sociales a img {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-right: 38px;
@@ -256,15 +285,7 @@
   width: 16px;
 }
 
-.footer .contenedor-redes-sociales img:first-child {
+.footer .contenedor-redes-sociales a:first-child {
   margin-left: 45px;
-}
-
-.footer .contenedor-redes-sociales img:nth-child(2) {
-  width: 14px;
-}
-
-.footer .contenedor-redes-sociales img:last-child {
-  margin-right: 45px;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -183,6 +183,29 @@ body {
   .hambutton {
     display: none;
   }
+  /**/
+  .ham_menu {
+    top: 200px;
+    height: 220px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+    -webkit-transform: translate(0, -100%);
+            transform: translate(0, -100%);
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.4, 0.07, 0.99, 0.91);
+    transition: -webkit-transform 0.3s cubic-bezier(0.4, 0.07, 0.99, 0.91);
+    transition: transform 0.3s cubic-bezier(0.4, 0.07, 0.99, 0.91);
+    transition: transform 0.3s cubic-bezier(0.4, 0.07, 0.99, 0.91), -webkit-transform 0.3s cubic-bezier(0.4, 0.07, 0.99, 0.91);
+  }
+  .ham_menu li {
+    padding: 13px 0 10px 0;
+    font-size: 1.6em;
+  }
+  /**/
   .contenedor_ham_menu {
     top: 8px;
     height: 44px;
@@ -213,10 +236,7 @@ body {
     font-size: 16px;
     color: #060a24;
     letter-spacing: 0;
-    line-height: 28px;
-    -webkit-transition: all 200ms ease;
-    transition: all 200ms ease;
-    text-align: center;
+    margin: 0;
   }
 }
 /*# sourceMappingURL=styles_menu.css.map */
