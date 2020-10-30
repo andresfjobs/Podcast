@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) /*and (max-width: 1440px) */{
+@media screen and (min-width: 1024px) /*and (max-width: 1440px) */ {
   $ibmsans: "IBM Plex Sans";
   $ibmmono: "IBM Plex Mono";
   .line_through {
@@ -6,7 +6,7 @@
   }
   .intro {
     height: 25.6%;
-    padding-left: 13.9%;
+    padding-left: 200px;
     width: calc(100% - 186px);
     grid-template-areas:
       "a a a a"
@@ -15,22 +15,19 @@
     .content {
       width: 100%;
       .ibmsans.hello {
-        
         width: 740px;
         font-family: $ibmsans;
         font-size: 64px;
         color: #060a24;
-      
-      .line_through {
-        text-decoration: line-through;
-        }
-      .dot{
-        color: #0000EC;
 
-      }
+        .line_through {
+          text-decoration: line-through;
+        }
+        .dot {
+          color: #0000ec;
+        }
       }
       .ibmono {
-
         width: 628px;
         font-family: $ibmmono;
         font-size: 16px;
@@ -54,132 +51,114 @@
 
   .main_content {
     .episodio {
-      //height:72.04%;
       grid-area: auto;
       padding-bottom: 100px;
       background: linear-gradient(#0000ff, #0000a3);
       clip-path: polygon(0 15%, 100% 0%, 100% 84%, 0% 100%);
-        .titulo_episodio{
-          margin-top: 15%;
-          margin-left: 7.81%;
-          font-size: 48px;
-        }
+      .titulo_episodio {
+        margin-top: 15%;
+        margin-left: 7.81%;
+        font-size: 48px;
+      }
 
-        .contenedor_episodios {
-          display: grid;
-          height:72.04%;
-          // justify-items: center;
-          grid-template-columns: auto auto;
-          .episodio_spotify {
-            width: 500px;
-            height: 300px;
-            margin: 0 auto;
-            display: flex; /* new */
-            align-items: center; /* new */
-            justify-content: center;
-            //grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
-            iframe {
-              width: 100%;
-              height: 100%;
-            
+      .contenedor_episodios {
+        display: grid;
+        height: 72.04%;
+        grid-template-columns: auto auto;
+        .episodio_spotify {
+          width: 500px;
+          height: 300px;
+          margin: 0 auto;
+          display: flex; /* new */
+          align-items: center; /* new */
+          justify-content: center;
+
+          iframe {
+            width: 100%;
+            height: 100%;
           }
         }
       }
     }
   }
 
-
-.phoneImage {
+  .phoneImage {
     display: flex;
-  flex-direction: row;
-   .imageP{
-      transform: translateY(-170px); 
+    flex-direction: row;
+    .imageP {
+      transform: translateY(-170px);
       margin-left: 200px;
       width: 457.6px;
       height: 660px;
-}
-    .de_donde_venimos{
-      transform: translateY(-120px); 
+    }
+    .de_donde_venimos {
+      transform: translateY(-120px);
       margin-top: 150px;
       width: 464px;
       margin-left: 50px;
-      
-  }
-  
-}
-
-.invitados{
-      .inv{
-
-        font-family: $ibmsans;
-        font-size: 48px;
-        font-weight: 400;
-      }
-  .contenedor_imagenes{
-
-    display: flex;
-    width: 100%;
-    img{
-      flex-grow:1;  
-      width: 33%;
-      height: 25.27%;
     }
   }
-}
 
-.algunos_temas{
-.algunos_temas_img{
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-  .contenedor_algunos_temas{
-    padding-left: 40px;
+  .invitados {
+    .inv {
+      font-family: $ibmsans;
+      font-size: 48px;
+      font-weight: 400;
+    }
+    .contenedor_imagenes {
+      display: flex;
+      width: 100%;
+      img {
+        flex-grow: 1;
+        width: 33%;
+        height: 25.27%;
+      }
+    }
   }
 
+  .algunos_temas {
+    .algunos_temas_img {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
 
-
+      .contenedor_algunos_temas {
+        padding-left: 40px;
+      }
+    }
   }
-}
 
-.footer{
-.contenedor-redes-sociales{
-
-justify-content: flex-end;
-
-      } 
+  .footer {
+    .contenedor-redes-sociales {
+      justify-content: flex-end;
+    }
   }
 
-.novedad{
-
-  .escuchaBoton{
-    width: 345px;
-    margin-left: 547px;
+  .novedad {
+    .escuchaBoton {
+      width: 345px;
+      margin-left: 547px;
+    }
   }
-  
-}
 
-.footer{
+  .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    .parrafo_hello{
+    .parrafo_hello {
       margin-top: 36px;
       margin-left: 100px;
-  }
+    }
 
-  .contenedor-redes-sociales{
+    .contenedor-redes-sociales {
       margin-top: 36px;
       margin-right: 100px;
 
-      img{
-
+      img {
         width: 18px;
         height: 28px;
       }
+    }
   }
-}
-
 }

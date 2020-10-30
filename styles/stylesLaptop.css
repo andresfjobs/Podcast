@@ -4,7 +4,7 @@
   }
   .intro {
     height: 25.6%;
-    padding-left: 13.9%;
+    padding-left: 200px;
     width: calc(100% - 186px);
         grid-template-areas: "a a a a" "b b . .";
   }
@@ -21,7 +21,7 @@
     text-decoration: line-through;
   }
   .intro .content .ibmsans.hello .dot {
-    color: #0000EC;
+    color: #0000ec;
   }
   .intro .content .ibmono {
     width: 628px;

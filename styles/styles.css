@@ -7,7 +7,7 @@
   width: 100%;
   font-size: 36px;
   font-weight: 500;
-  color: #060A24;
+  color: #060a24;
   line-height: 42px;
   display: -ms-grid;
   display: grid;
@@ -33,10 +33,10 @@
 
 .intro .content .ibmsans.hello {
   width: 250px;
-  font-family: 'IBM Plex Sans';
+  font-family: "IBM Plex Sans";
   font-weight: 500;
   font-size: 36px;
-  color: #060A24;
+  color: #060a24;
   letter-spacing: 0;
   line-height: 42px;
   margin-bottom: 0;
@@ -47,9 +47,9 @@
 }
 
 .intro .content .ibmono {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 14px;
-  color: #060A24;
+  color: #060a24;
   letter-spacing: 0;
   line-height: 22px;
   margin-bottom: 0;
@@ -70,7 +70,7 @@
   width: 288px;
   height: 48px;
   background-color: #00f3bb;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0;
@@ -78,8 +78,8 @@
 }
 
 .intro .conocemas:hover {
-  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-  color: #FFFFFF;
+  background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
+  color: #ffffff;
 }
 
 .main_content {
@@ -90,7 +90,7 @@
 }
 
 .episodio {
-  background-image: linear-gradient(225deg, #0000FF 0%, #0000a3 100%);
+  background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
   -webkit-clip-path: polygon(0 3.65%, 100% 0%, 100% 97.25%, 0% 100%);
           clip-path: polygon(0 3.65%, 100% 0%, 100% 97.25%, 0% 100%);
   -ms-grid-row: 1;
@@ -101,10 +101,10 @@
 .episodio .titulo_episodio {
   color: #ffffff;
   margin-top: 64px;
-  font-family: 'IBM Plex Sans';
+  font-family: "IBM Plex Sans";
   font-weight: 300;
   font-size: 36px;
-  color: #FFFFFF;
+  color: #ffffff;
   letter-spacing: 0;
   line-height: 42px;
   width: 157px;
@@ -130,10 +130,10 @@
 }
 
 .de_donde_venimos h2 {
-  font-family: 'IBM Plex Sans';
+  font-family: "IBM Plex Sans";
   font-size: 36px;
   font-weight: 500;
-  color: #060A24;
+  color: #060a24;
   letter-spacing: 0;
   line-height: 42px;
   margin: 0 16px 0 16px;
@@ -142,10 +142,10 @@
 
 .de_donde_venimos p {
   margin: 8px 16px 15px 16px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 14px;
   font-weight: 500;
-  color: #060A24;
+  color: #060a24;
   letter-spacing: 0;
   line-height: 22px;
 }
@@ -155,7 +155,7 @@
   font-family: "IBM Plex Sans";
   font-weight: 500;
   font-size: 36px;
-  color: #060A24;
+  color: #060a24;
   letter-spacing: 0;
   line-height: 42px;
 }
@@ -185,29 +185,29 @@
 }
 
 .algunos_temas h2 {
-  font-family: 'IBM Plex Sans';
+  font-family: "IBM Plex Sans";
   font-size: 36px;
   font-weight: 400;
-  color: #060A24;
+  color: #060a24;
   text-align: left;
   letter-spacing: 0;
   line-height: 42px;
 }
 
 .algunos_temas h3 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 24px;
-  color: #060A24;
+  color: #060a24;
   line-height: 32px;
   letter-spacing: 0;
 }
 
 .novedad {
   height: 341px;
-  background-image: linear-gradient(225deg, #0000FF 0%, #0000a3 100%);
+  background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
   -webkit-clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0% 100%);
           clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0% 100%);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .novedad h2 {
@@ -215,10 +215,10 @@
   font-size: 36px;
   text-align: center;
   margin: 0 16px;
-  font-family: 'IBM Plex Sans';
+  font-family: "IBM Plex Sans";
   font-size: 36px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
   letter-spacing: 0;
   text-align: center;
   line-height: 42px;
@@ -230,11 +230,11 @@
   margin-bottom: 24px;
   border: 0em;
   padding: 0em;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   width: 288px;
   height: 48px;
   background-color: #00f3bb;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0;
@@ -242,16 +242,16 @@
 }
 
 .novedad button:hover {
-  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-  color: #FFFFFF;
+  background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
+  color: #ffffff;
 }
 
 .footer p {
   margin: 24px 46px 16px 47px;
   text-align: center;
-  font-family: 'IBM Plex Mono';
+  font-family: "IBM Plex Mono";
   font-size: 14px;
-  color: #060A24;
+  color: #060a24;
   letter-spacing: 0;
   line-height: 22px;
 }
@@ -262,16 +262,6 @@
   display: flex;
   font-size: 0px;
   margin-bottom: 31px;
-}
-
-.footer .contenedor-redes-sociales a {
-  /*
-    &:nth-child(2){
-      width: 14px;
-    }
-    &:last-child{
-      margin-right: 45px;
-    }*/
 }
 
 .footer .contenedor-redes-sociales a img {
